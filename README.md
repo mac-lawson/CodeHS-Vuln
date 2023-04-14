@@ -7,7 +7,7 @@
 ### Severity: High
 
 ### Description:
-The Python script provided by the author allows the execution of arbitrary shell commands on the server-side. The script takes input from the user, which is then executed using the subprocess module without any sanitization or validation. As a result, an attacker can inject malicious shell commands as input and execute them on the server-side. This can lead to unauthorized access, data theft, and other malicious activities.
+The Python script provided allows the execution of arbitrary shell commands on the server-side. The script takes input from the user, which is then executed using the subprocess module without any sanitization or validation. As a result, an attacker can inject malicious shell commands as input and execute them on the server-side. This can lead to unauthorized access, data theft, and other malicious activities.
 
 ### Impact:
 This vulnerability can allow attackers to execute arbitrary shell commands on the server-side, leading to unauthorized access, data theft, and other malicious activities.
@@ -21,4 +21,4 @@ This vulnerability was discovered and reported by Mac Lawson.
 Disclosure Timeline:
 
 Report submitted to CodeHS: 14th April 2023
-No response received from CodeHS as of 14th April 2023
+
